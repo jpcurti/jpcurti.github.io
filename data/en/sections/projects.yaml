@@ -12,53 +12,42 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
+- name: Educational
+  filter: "educational"
+
 - name: Hobby
   filter: "hobby"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
+- name: SFND_3D_Object_Tracking 
+  repo: https://github.com/jpcurti/SFND_3D_Object_Tracking
+
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  summary: Part of the Udacity Nanodegree "Sensor Fusion Engineer"
+  tags: ["educational"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: SFND_2D_Feature_Tracking
+  repo: https://github.com/jpcurti/SFND_2D_Feature_Tracking
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
   #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+  summary: Part of the Udacity Nanodegree "Sensor Fusion Engineer"
+  tags: ["educational"]
+- name: Can-I-make-a-game
+  role: owner
+  repo: https://github.com/jpcurti/Can-I-make-a-game
+  summary: "Lockdown Project: What is necessary to create a VR game?"
+  tags: ["hobby"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: wsb-stonks-meter
+  repo: https://github.com/jpcurti/wsb-stonks-meter
+  #url: ""
+  summary: A monitor of your favorite stock using an ESP8266 (or ESP32), a display and a servo motor.
+  tags: ["hobby"]
+
+
+- name: keep_your_distance_game 
+  repo: https://github.com/jpcurti/keep_your_distance_game
+  summary: A simple 2D game using C++ and SDL. Can you keep your distance from the virus?
+  tags: [hobby"]

@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Publications
+  name: Patents
   id: publications
   enable: true
   weight: 6
@@ -12,71 +12,71 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
+- name: "Autonomous Driving"
+  filter: "adas"
+- name: "Automotive Hardware"
+  filter: "hardware"
 - name: Security
   filter: "security"
+- name: Automotive Safety
+  filter: "safety"
+
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+- title: Method, controller for an automatically operatable road vehicle, computer program product for detecting objects in road traffic, and automatically operatable road vehicle for mobility services 
+  publishedIn: 
+    name: WO2020173692A1
+    date: 2019
+    url: https://patents.google.com/patent/WO2020173692A1/
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Joao Curti
+  - name: Eduardo Neiva
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: The invention relates to a method, a control device for a road vehicle that can be operated automatically, a computer program product for recognizing objects in road traffic and a road vehicle that can be operated automatically for mobility services.
+    url: https://patents.google.com/patent/WO2020173692A1/
+  categories: ["adas","hardware","safety"]
+  tags: ["Autonomous driving", "Domain ECU", "Vehicle Safety"]
+- title: Controllable cooling 
+  publishedIn: 
+    name: DE102019212382B4
+    date: 2019
+    url: https://patents.google.com/patent/DE102019212382B4
+  authors:
+  - name: Joao Curti
+  - name: Viktor Rakoczi
+  - name: Guilherme Lima
+  paper:
+    summary: An assembly comprises several components that can heat up during operation so that they have to be cooled. The assembly can in particular include electrical components, the degree of heating of the individual components being dependent on an operating state of the assembly. A component can be provided with a heat sink, which can be forcibly ventilated with a fan, for example. Depending on the heating of the component, the fan can be activated to provide volume flows of different sizes on the heat sink.
+    url: https://patents.google.com/patent/DE102019212382B4
+  categories: ["safety","hardware"]
+  tags: ["Domain ECU", "Cooling Systems", "Automotive Hardware"]
+- title: Method and device for communication with self-propelled machines 
+  publishedIn: 
+    name: DE102018210583B3
+    date: 2018
+    url: https://patents.google.com/patent/DE102018210583B3/
+  authors:
+  - name: Stefan Traub  
+  - name: Mauro Zanella
+  - name: Joao Curti
+  paper:
+    summary: The present invention relates to a method and associated apparatus for communicating vehicles, such as self-propelled work machines, with each other or with a stationary unit, such as a base station.
+    url: https://patents.google.com/patent/DE102018210583B3/
+  categories: ["adas","hardware"]
+  tags: ["V2X", "Autonomous Driving", "Automotive hardware"]
+- title: Safety device for bus systems in vehicles 
+  publishedIn: 
+    name: DE102018218902B4, US20220004629A1
+    date: 2018
+    url: https://patentimages.storage.googleapis.com/b2/76/1c/79d497de38bf19/DE102018218902B4.pdf
+  authors:
+  - name: Joao Curti
+  - name: Stefan Traub  
+  - name: Mauro Zanella
+  paper:
+    summary: A security device for the detection of manipulations on a bus system of a vehicle as well as an associated vehicle and an associated method are disclosed. A safety device comprises a receiving unit for connection to the bus system of the vehicle and for receiving a signal from the bus system. Furthermore, the device comprises an analysis unit for analyzing a transition between signal states of the signal and an evaluation unit for evaluating the signal as a manipulated signal or non-manipulated signal based on the analysis of the analysis unit.
+    url: https://patentimages.storage.googleapis.com/b2/76/1c/79d497de38bf19/DE102018218902B4.pdf
+  categories: ["security","hardware"]
+  tags: ["Domain ECU", "Vehicle Safety"]
 
-- title: An Sample Paper on Image Processing
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
-
-- title: An Example Paper on Security
-  publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
-  authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
-  paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]

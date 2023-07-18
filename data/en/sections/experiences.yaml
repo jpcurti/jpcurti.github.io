@@ -11,54 +11,72 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: ZF Friedrichshafen AG
+    url: "https://www.zf.com/site/ats/en/ats.html"
+    location: Friedrichshafen
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Autonomous Mobility Systems at ZF
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Software Engineer
+    start: Jul 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Design and develop algorithms for safe motion planning.
+    - Modern C++ development of safety libraries in autonomous driving.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: ZF Friedrichshafen AG.
+    url: "https://www.zf.com"
+    location: Friedrichshafen
+    overview: Industrial Technology division at ZF.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Software Engineer/Architect
+    start: Oct 2021
+    end: Jun 2023
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Write software for automotive driving open platform using C++.
+    - Develop and maintanance of model-based software architectures.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: ZF Friedrichshafen AG
+    url: "https://www.zf.com/site/ats/en/ats.html"
+    location: Friedrichshafen
+    # company overview
+    overview: High-performance automotive computers at ZF.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: System Architect
+    start: Sep 2018
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Oct 2021
+    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Model the system architecture of domain control units for autonomous driving.
+    - Elicitate and specify system requirements of automotive high-performance computers.
+
+- company:
+    name: ZF Friedrichshafen AG
+    url: "https://www.zf.com"
+    location: Friedrichshafen
+    overview: Commercial Vehicles Solution division at ZF.
+  positions:
+  - designation: Summer Internship
+    start: Jul 2017
+    end: Sep 2017
+    responsibilities:
+    - Development of a mobile app using c++ and QT for mission control of a automated heavy duty vehicle.
+  
+
+- company:
+    name: UTFPR- Federal University of Technology - Paraná.
+    url: "http://www.utfpr.edu.br/"
+    location: Curitiba - Brazil
+    overview: Imaging and Electronic Instrumentation Laboratory (LABIEM) at UTFPR
+  positions:
+  - designation: Research Assistant
+    start: Aug 2015
+    end: Nov 2016
+    responsibilities:
+    - Firmware development in C for medical instrumentation prototypes used in academic researches.   
+
