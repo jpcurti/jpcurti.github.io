@@ -21,33 +21,38 @@ buttons:
 # your projects
 projects:
 
+
+- name: ender3-v3-se-klipper-with-display
+  repo: https://github.com/jpcurti/ender3-v3-se-klipper-with-display
+  #url: ""
+  summary: Modified klipper for ender3-v3 se with stock display support.
+  tags: ["hobby"]
+
+- name: E3V3SE_display_klipper
+  repo: https://github.com/jpcurti/E3V3SE_display_klipper
+  #url: ""
+  summary: Python based interface for the Creality Ender 3 V3 SE display running Klipper
+  tags: ["hobby"]
+
 - name: SFND_3D_Object_Tracking 
   repo: https://github.com/jpcurti/SFND_3D_Object_Tracking
-
   #url: ""
   summary: Part of the Udacity Nanodegree "Sensor Fusion Engineer"
   tags: ["educational"]
 
 - name: SFND_2D_Feature_Tracking
   repo: https://github.com/jpcurti/SFND_2D_Feature_Tracking
-
   #url: ""
   summary: Part of the Udacity Nanodegree "Sensor Fusion Engineer"
   tags: ["educational"]
+
 - name: Can-I-make-a-game
-  role: owner
+  #role: owner
   repo: https://github.com/jpcurti/Can-I-make-a-game
   summary: "Lockdown Project: What is necessary to create a VR game?"
   tags: ["hobby"]
 
-- name: wsb-stonks-meter
-  repo: https://github.com/jpcurti/wsb-stonks-meter
-  #url: ""
-  summary: A monitor of your favorite stock using an ESP8266 (or ESP32), a display and a servo motor.
-  tags: ["hobby"]
-
-
 - name: keep_your_distance_game 
   repo: https://github.com/jpcurti/keep_your_distance_game
   summary: A simple 2D game using C++ and SDL. Can you keep your distance from the virus?
-  tags: [hobby"]
+  tags: ["educational"]
